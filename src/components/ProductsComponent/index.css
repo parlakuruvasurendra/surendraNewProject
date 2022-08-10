@@ -1,0 +1,107 @@
+.productsContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.defaultStyles {
+  list-style-type: none;
+}
+.imageStyling {
+  height: 100px;
+  width: 120px;
+  border-radius: 5px;
+}
+.priceAndStyleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding-left: 5px;
+  margin-bottom: 0px;
+}
+
+.rupeeContainer {
+  display: flex;
+}
+.styleStyling {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  margin-top: 0px;
+  font-size: 20px;
+  line-height: 21px;
+  color: #000000;
+}
+.priceStyling {
+  margin-top: 0px;
+  font-size: 20px;
+}
+.rupeeStyling {
+  height: 20px;
+  margin-top: 5px;
+  width: 20px;
+}
+@media screen and (max-width: 576px) {
+  .priceAndStyleContainer {
+    align-items: flex-start;
+    margin-bottom: 0px;
+    margin-top: 5px;
+  }
+  .priceStyling {
+    margin-top: 0px;
+  }
+  .styleStyling {
+    margin-bottom: 3px;
+    margin-top: 2px;
+  }
+}
+.addButtonStyling {
+  background: #ff5b5b;
+  border-radius: 3px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-top: 10px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border-width: 0px;
+  border-style: solid;
+  cursor: pointer;
+  outline: none;
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  color: #ffffff;
+  align-self: flex-end;
+}
+.container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  width: 380px;
+  border-bottom-width: 2px;
+  border-top-width: 0px;
+  border-left-width: 0px;
+  border-right-width: 0px;
+  border-style: solid;
+  border-color: rgb(160, 161, 161);
+}
+@media screen and (max-width: 576px) {
+  .container {
+    flex-direction: column;
+    align-items: flex-start;
+    width: 220px;
+  }
+  .addButtonStyling {
+    align-self: flex-start;
+    margin-top: 0px;
+  }
+}
+.allItemsContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
